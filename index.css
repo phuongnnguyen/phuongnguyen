@@ -1,0 +1,69 @@
+body {
+  font-size: 25px;
+  font-family: 'Stylish', sans-serif;
+}
+
+body img {
+  width: 100%;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Stylish', sans-serif;
+}
+
+body section {
+  margin: 100px 0;
+  background: white;
+}
+
+#wrapper li:hover {
+  color: greenyellow;
+}
+
+#wrapper #sidebar {
+  display: none;
+}
+
+#wrapper main {
+  margin-top: 100px;
+}
+
+.content {
+  padding: 0 10%;
+}
+
+#aboutme span:hover {
+  background: #4CAF50 !important;
+  color: white;
+}
+
+.contactIcon {
+  width: 150px;
+  height: 140px;
+  line-height: 140px;
+  margin: 0 auto;
+}
+
+.bar {
+  height: 5px;
+}
+
+.circle {
+  width: 200px;
+  margin: 6px 20px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+
+.circle strong {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=index.css.map */
