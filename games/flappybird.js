@@ -41,12 +41,16 @@ Ball.prototype.fall = function() {
 }
 Ball.prototype.controls = function() {
     let _this = this;
+    window.onclick = function(e) {
+        e.preventDefault();
+        console.log("qq")
+        _this.up();
+    }    
     window.onkeyup = function(e) {
         if(e.keyCode === 13) {
             _this.up();
         }
     }
-    
 }
 function Pipe() {
     this.top = rnd(0, height/2);
