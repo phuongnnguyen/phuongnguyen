@@ -84,7 +84,7 @@ function setupPipe() {
     for(let i=0; i<pipes.length; i++) {
         pipes[i].show();
         pipes[i].update();
-        if(pipes[i].x < 0) {
+        if(pipes[i].x < -50) {
             pipes.splice(i, 1);
             score++;
         }

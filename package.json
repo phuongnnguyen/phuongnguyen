@@ -1,0 +1,24 @@
+{
+  "name": "phuongnguyen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "kanban": "^0.0.3",
+    "react-create-app": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongnnguyen/phuongnguyen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuongnnguyen/phuongnguyen/issues"
+  },
+  "homepage": "https://github.com/phuongnnguyen/phuongnguyen#readme"
+}
